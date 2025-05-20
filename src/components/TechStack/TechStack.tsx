@@ -21,6 +21,7 @@ import {
   SiSupabase,
   SiGithubpages,
   SiJest,
+  SiVitest,
   SiPrisma,
 } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
@@ -33,7 +34,7 @@ const TechStack = () => {
           <h1 className="name">Tech Stack</h1>
         </div>
         <div className="techstack-details">
-          <div className="languages">
+          <div className="category">
             <div className="label">Languages</div>
             <div className="grid-container">
               <div className="icon-wrapper">
@@ -78,7 +79,7 @@ const TechStack = () => {
               </div>
             </div>
           </div>
-          <div className="frameworks">
+          <div className="category">
             <div className="label">Frameworks and Libraries</div>
             <div className="grid-container">
               <div className="icon-wrapper">
@@ -101,9 +102,13 @@ const TechStack = () => {
                 <SiJest title="Jest" />
                 <p>Jest</p>
               </div>
+              <div className="icon-wrapper">
+                <SiVitest title="Vitest" />
+                <p>Vitest</p>
+              </div>
             </div>
           </div>
-          <div className="tools">
+          <div className="category">
             <div className="label">Tools</div>
             <div className="grid-container">
               <div className="icon-wrapper">
@@ -128,7 +133,7 @@ const TechStack = () => {
               </div>
             </div>
           </div>
-          <div className="deployment">
+          <div className="category">
             <div className="label">Deployment and DevOps</div>
             <div className="grid-container">
               <div className="icon-wrapper">

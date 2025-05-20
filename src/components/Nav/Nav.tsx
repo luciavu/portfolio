@@ -14,7 +14,7 @@ const Nav = ({ links }: NavPropTypes) => {
     <>
       <nav>
         {links.map((link) => (
-          <a className="nav-link" href={link.link}>
+          <a className="nav-link" href={link.link} key={link.number}>
             <div className="number">{link.number}</div>
             <div className="name">{link.name}</div>
           </a>

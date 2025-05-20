@@ -3,30 +3,23 @@
   color: var(--bg-color);
 
   .heading {
-    display: flex;
-    gap: 2rem;
-
     .id {
       color: var(--color-grey);
-      font-weight: 600;
-    }
-
-    .name {
-      font-weight: 600;
     }
   }
 
   .techstack-details {
     display: flex;
-    flex-direction: column;
-    gap: 4rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5rem;
     margin: 3rem 0;
 
-    * {
-      width: 100%;
+    .category {
+      flex: 1 1 34rem;
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 2.5rem;
 
       .label {
         font-size: 1.5rem;
@@ -38,7 +31,6 @@
 
   .grid-container {
     display: grid;
-    width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
     gap: 2rem;
 

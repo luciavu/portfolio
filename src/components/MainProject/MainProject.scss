@@ -1,0 +1,35 @@
+.main-project {
+  display: flex;
+  margin: 7rem 0;
+  gap: 3rem;
+
+  .project-details {
+    align-items: start;
+    justify-content: start;
+    gap: 1.5rem;
+    width: 45%;
+
+    h1 {
+      font-size: 2.3rem;
+    }
+
+    .links {
+      margin-top: 0.5rem;
+      display: flex;
+      gap: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .techstack {
+      display: flex;
+      gap: 1rem;
+      font-size: 1.4rem;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    p {
+      color: var(--color-grey);
+    }
+  }
+}
