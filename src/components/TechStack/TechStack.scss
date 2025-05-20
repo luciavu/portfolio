@@ -1,0 +1,59 @@
+.techstack {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+
+  .heading {
+    display: flex;
+    gap: 2rem;
+
+    .id {
+      color: var(--color-grey);
+      font-weight: 600;
+    }
+
+    .name {
+      font-weight: 600;
+    }
+  }
+
+  .techstack-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 3rem 0;
+
+    * {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      .label {
+        font-size: 1.5rem;
+        width: max-content;
+        color: var(--color-grey-light);
+      }
+    }
+  }
+
+  .grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+    gap: 2rem;
+
+    .icon-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      text-align: center;
+      gap: 0.5rem;
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
