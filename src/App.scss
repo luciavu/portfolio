@@ -3,7 +3,7 @@
   --color-grey: rgb(75, 75, 75);
   --color-grey-light: rgb(179, 179, 179);
   --color-white: white;
-  --color-accent: rgb(0, 60, 151);
+  --color-accent: rgb(49, 67, 202);
   --color-accent-light: rgb(150, 169, 255);
   --bg-color: var(--color-white);
   --text-color: var(--color-black);
@@ -41,6 +41,11 @@ section {
   h1 {
     font-size: 3rem;
   }
+  p {
+    color: var(--color-grey-light);
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
 
   .heading {
     display: flex;
@@ -65,8 +70,8 @@ section {
 }
 
 .link {
-  cursor: pointer;
   color: var(--color-grey-light);
+  cursor: pointer;
   text-decoration: underline;
   text-decoration-thickness: 0.1rem;
   text-underline-offset: 0.2rem;

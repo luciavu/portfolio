@@ -15,7 +15,7 @@ const Hero = () => {
             links={[
               { number: '01', name: 'Tech stack', link: '#techstack' },
               { number: '02', name: 'Projects', link: '#projects' },
-              { number: '03', name: 'About', link: '#about' },
+              { number: '03', name: 'GitHub', link: '#github' },
               { number: '04', name: 'Contact', link: '#contact' },
             ]}
           ></Nav>

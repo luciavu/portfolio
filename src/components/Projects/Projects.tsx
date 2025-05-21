@@ -2,10 +2,12 @@ import { FaCss3Alt, FaSass, FaHtml5, FaReact, FaNodeJs } from 'react-icons/fa6';
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiTypescript, SiRender, SiVercel, SiSupabase, SiPrisma } from 'react-icons/si';
 import { BiLogoPostgresql } from 'react-icons/bi';
-
+import ProjectGrid from '../ProjectGrid/ProjectGrid';
 import MainProject from '../MainProject/MainProject';
+import projects from './projects';
+
 const Projects = () => {
-  const imageUrl = './images/project';
+  const mainProjectsPath = './images/project';
 
   return (
     <>
@@ -20,13 +22,12 @@ const Projects = () => {
           liveLink="https://blog-one-swart-70.vercel.app/"
           codeLink="https://github.com/luciavu/blog"
           imagePreviews={[
-            `${imageUrl}1/preview1.png`,
-            `${imageUrl}1/preview2.png`,
-            `${imageUrl}1/preview3.png`,
+            `${mainProjectsPath}1/preview1.png`,
+            `${mainProjectsPath}1/preview2.png`,
+            `${mainProjectsPath}1/preview3.png`,
           ]}
-          description1="A full-stack (React TS + Node.js) blog application that consumes a custom-built RESTful API backend and deployed via Vercel."
-          description2="Fetches and displays blog posts from RESTful API server deployed on Render and PostgreSQL database on Supabase. Allows users to view individual post pages
-, including a commenting system with author display and comment timestamps. Includes authorisation through JWT-Protected routes for admin login, CRUD operations for blog posts
+          description1="A full-stack (React + Node.js) blog application that consumes a custom-built RESTful API backend and deployed via Vercel."
+          description2="Fetches and displays blog posts from RESTful API server deployed on Render and PostgreSQL database on Supabase.  Includes  JWT-Protected routes for admin login, CRUD operations for blog posts
 and managing user comments/permissions"
           techstack={[
             FaReact,
@@ -45,15 +46,10 @@ and managing user comments/permissions"
           title="File Storage App"
           liveLink="https://file-uploader-5jrp.onrender.com"
           codeLink="https://github.com/luciavu/file-uploader"
-          imagePreviews={[`${imageUrl}2/preview1.png`, `${imageUrl}2/preview2.png`]}
-          description1="A personal file storage app inspired by Google Drive.
-
-This application uses TypeScript, Express, PostgreSQL, Passport.js, Prisma ORM, multer, Supabase Cloud Storage, EJS, and bcyrptjs, and is deployed via Render and Supabase."
-          description2="User authentication: login system based on express-sessions and Passport.js
-Folder management: create, read, update and delete folders
-File upload: upload files to Supabase Storage using multer
-Secure file downloads: files are downloaded via signed URLs that expire after 60s
-Cloud Storage - files are stored in Supabase buckets and saved in PostgreSQL via Prisma ORM"
+          imagePreviews={[`${mainProjectsPath}2/preview1.png`, `${mainProjectsPath}2/preview2.png`]}
+          description1="A personal file storage app inspired by Google Drive."
+          description2="This application uses TypeScript, Express, PostgreSQL, Passport.js, Prisma ORM, multer, Supabase Cloud Storage, EJS, and bcyrptjs, and is deployed via Render and Supabase.
+       It involves user login authentication and allows CRUD operations on files are stored in Supabase buckets"
           techstack={[
             SiTypescript,
             FaNodeJs,
@@ -70,12 +66,12 @@ Cloud Storage - files are stored in Supabase buckets and saved in PostgreSQL via
           liveLink="https://luciavu.github.io/weather-app/"
           codeLink="https://github.com/luciavu/weather-app"
           imagePreviews={[
-            `${imageUrl}3/preview1.png`,
-            `${imageUrl}3/preview2.png`,
-            `${imageUrl}3/preview3.png`,
+            `${mainProjectsPath}3/preview1.png`,
+            `${mainProjectsPath}3/preview2.png`,
+            `${mainProjectsPath}3/preview3.png`,
           ]}
           description1="A Weather Forecast website built using HTML, CSS, and JavaScript."
-          description2="The app fetches weather data from the Visual Crossing Weather API to provide real-time weather information. The app provides detailed weather forecasts for a specific location, offering both current weather data, hourly forecast, and 10-day forecast. It also offers geolocation input and toggling temperature between celsius and farenheit."
+          description2="The app fetches weather data from the Visual Crossing Weather API to provide real-time weather  forecasts for a specific location, offering both current weather data, hourly forecast, and 10-day forecast. It also offers geolocation input and toggling temperature between celsius and farenheit."
           techstack={[FaHtml5, FaCss3Alt, IoLogoJavascript]}
         ></MainProject>
         <MainProject
@@ -84,9 +80,9 @@ Cloud Storage - files are stored in Supabase buckets and saved in PostgreSQL via
           liveLink="https://shopping-cart-beta-mauve.vercel.app"
           codeLink="https://github.com/luciavu/shopping-cart"
           imagePreviews={[
-            `${imageUrl}4/preview1.png`,
-            `${imageUrl}4/preview2.png`,
-            `${imageUrl}4/preview3.png`,
+            `${mainProjectsPath}4/preview1.png`,
+            `${mainProjectsPath}4/preview2.png`,
+            `${mainProjectsPath}4/preview3.png`,
           ]}
           description1="A mock shopping cart built with React Router and the Context API."
           description2="Features products from the FakeStore API, and was tested with Vitest and deployed on Vercel."
@@ -98,10 +94,10 @@ Cloud Storage - files are stored in Supabase buckets and saved in PostgreSQL via
           liveLink="https://luciavu.github.io/battleship/"
           codeLink="https://github.com/luciavu/battleship"
           imagePreviews={[
-            `${imageUrl}5/preview1.png`,
-            `${imageUrl}5/preview2.png`,
-            `${imageUrl}5/preview3.png`,
-            `${imageUrl}5/preview4.png`,
+            `${mainProjectsPath}5/preview1.png`,
+            `${mainProjectsPath}5/preview2.png`,
+            `${mainProjectsPath}5/preview3.png`,
+            `${mainProjectsPath}5/preview4.png`,
           ]}
           description1="A Battleship game built using HTML, CSS, and JavaScript."
           description2="The project follows Test-Driven Development (TDD) principles and uses Jest for unit testing."
@@ -110,6 +106,13 @@ Cloud Storage - files are stored in Supabase buckets and saved in PostgreSQL via
       </section>
       <section>
         <h1>More Projects</h1>
+        <p>
+          Available on my{' '}
+          <a href="https://github.com/luciavu" target="_blank" className="link">
+            GitHub
+          </a>
+        </p>
+        <ProjectGrid projects={projects}></ProjectGrid>
       </section>
     </>
   );
