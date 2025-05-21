@@ -1,0 +1,23 @@
+.contact {
+  .options {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .option {
+      display: flex;
+      gap: 0.5rem;
+      font-size: 1.2rem;
+
+      .icon {
+        font-size: 2rem;
+      }
+
+      a {
+        border-radius: 2rem;
+        padding: 0.2rem 1.2rem;
+      }
+    }
+  }
+}
