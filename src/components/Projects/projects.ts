@@ -2,6 +2,10 @@ const projectsPath = './images/other-projects/';
 
 const projects = [
   {
+    title: `Apple Music Lyrics`,
+    imagePath: `${projectsPath}14.jpg`,
+  },
+  {
     title: `Member's Only`,
     imagePath: `${projectsPath}1.jpg`,
     link: 'https://members-only-ytc5.onrender.com/',

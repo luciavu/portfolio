@@ -112,7 +112,7 @@ and managing user comments/permissions"
         <p>
           Available on my{' '}
           <a href="https://github.com/luciavu" target="_blank" className="link">
-            GitHub
+            GitHub.
           </a>
         </p>
         <ProjectGrid projects={projects}></ProjectGrid>

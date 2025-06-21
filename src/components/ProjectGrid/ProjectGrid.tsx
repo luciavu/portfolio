@@ -3,7 +3,7 @@ import './ProjectGrid.scss';
 type Project = {
   title: string;
   imagePath: string;
-  link: string;
+  link?: string;
 };
 
 type ProjectGridPropTypes = {

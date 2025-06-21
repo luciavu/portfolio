@@ -1,4 +1,5 @@
 import Nav from '../Nav/Nav';
+import { useState } from 'react';
 import './Hero.scss';
 
 const Hero = () => {
