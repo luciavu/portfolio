@@ -11,15 +11,19 @@ const Hero = () => {
 
             <div className="lastname">vu</div>
           </div>
-          <Nav
-            links={[
-              { number: '01', name: 'Tech stack', link: '#techstack' },
-              { number: '02', name: 'Projects', link: '#projects' },
-              { number: '03', name: 'GitHub', link: '#github' },
-              { number: '04', name: 'Contact', link: '#contact' },
-            ]}
-          ></Nav>
+          <div className="nav-wrapper">
+            <Nav
+              links={[
+                { number: '01', name: 'About', link: '#about' },
+                { number: '02', name: 'Tech stack', link: '#techstack' },
+                { number: '03', name: 'Projects', link: '#projects' },
+                { number: '04', name: 'Contact', link: '#contact' },
+              ]}
+            ></Nav>
+          </div>
         </div>
+
+        <img src="images/main2.jpg" alt="hero image" />
       </div>
     </>
   );

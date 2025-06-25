@@ -13,12 +13,12 @@ const Contact = () => {
         <div className="option">
           <FaEnvelope className="icon" />
           <a href="mailto:luciavu6@outlook.com" className="link">
-            Email
+            luciavu6@outlook.com
           </a>
         </div>
         <div className="option">
           <FaGithub className="icon" />
-          <a href="https://github.com/luciavu/" className="link">
+          <a href="https://github.com/luciavu/" className="link" target="_blank">
             Github
           </a>
         </div>

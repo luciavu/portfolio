@@ -10,21 +10,21 @@
   }
 }
 .hero-section {
-  color: var(--bg-color);
+  color: var(--color-black);
+
+  flex-direction: column;
   min-height: 100vh;
   width: 100%;
   overflow: hidden;
-  background-color: var(--color-black);
-  background-image: url(/images/main.jpg);
-
+  background-color: var(--bg-color);
   transition: 0.3s ease-in-out;
   background-size: contain;
   background-position: 50%;
   background-repeat: no-repeat;
 
   .hero-content {
-    align-items: end;
-    flex-direction: row;
+    align-items: start;
+    flex-direction: column;
     justify-content: space-between;
     z-index: 1;
     text-align: center;
@@ -40,5 +40,16 @@
     font-size: 9rem;
     line-height: 7rem;
     gap: 2rem;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    width: 100%;
+  }
+  img {
+    position: absolute;
+    width: 20rem;
+    bottom: 0rem;
+    right: 0rem;
   }
 }

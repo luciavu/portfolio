@@ -13,7 +13,7 @@ const Projects = () => {
     <>
       <section className="projects" id="projects">
         <div className="heading">
-          <h1 className="id">02</h1>
+          <h1 className="id">03</h1>
           <h1 className="name">Projects</h1>
         </div>
         <MainProject
@@ -106,7 +106,6 @@ and managing user comments/permissions"
       </section>
       <section id="github">
         <div className="heading">
-          <h1 className="id">03</h1>
           <h1 className="name">More Projects</h1>
         </div>
         <p>

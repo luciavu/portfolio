@@ -16,13 +16,13 @@ nav {
   }
 
   .nav-link {
-    color: var(--bg-color);
+    color: var(--color-black);
     display: flex;
     gap: 1.6rem;
     transition: 0.3s ease-in-out;
 
     .number {
-      color: var(--color-grey-light);
+      color: var(--color-point);
       font-weight: 600;
     }
 
