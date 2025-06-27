@@ -1,6 +1,6 @@
 @media only screen and (max-width: 820px) {
   body .main-project {
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     .project-details {
       width: 100%;
@@ -50,5 +50,9 @@
     p {
       color: var(--color-grey);
     }
+  }
+
+  hr {
+    border: 1px solid var(--color-grey-light);
   }
 }
