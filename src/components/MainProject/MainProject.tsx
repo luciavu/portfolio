@@ -50,6 +50,7 @@ const MainProject = ({
         <p>{description1}</p>
         <p>{description2}</p>
       </div>
+      <hr />
     </div>
   );
 };
