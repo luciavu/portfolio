@@ -50,7 +50,7 @@ const About = () => {
 
         <div className="about-images">
           <figure>
-            <img src="/images/about/wip.png" alt="WIP Project" />
+            <img src="/images/about/wip.jpg" alt="WIP Project" />
             <figcaption>
               <strong>Current Project - </strong>Dashboard Chrome extension
             </figcaption>
