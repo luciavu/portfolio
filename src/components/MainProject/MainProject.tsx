@@ -5,6 +5,7 @@ type MainProjectPropTypes = {
   title: string;
   codeLink: string;
   liveLink: string;
+  extraLink?: string;
   imagePreviews: string[];
   description1: string;
   description2: string;
@@ -16,6 +17,7 @@ const MainProject = ({
   title,
   codeLink,
   liveLink,
+  extraLink,
   imagePreviews,
   description1,
   description2,
@@ -39,6 +41,11 @@ const MainProject = ({
               <a href={codeLink} target="_blank" className="link">
                 View code
               </a>
+              {extraLink ? (
+                <a href={extraLink} target="_blank" className="link">
+                  Next.js Version
+                </a>
+              ) : null}
             </div>
           </div>
 

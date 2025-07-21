@@ -21,14 +21,15 @@ const Projects = () => {
           title="Fullstack Blog App"
           liveLink="https://blog-one-swart-70.vercel.app/"
           codeLink="https://github.com/luciavu/blog"
+          extraLink="https://github.com/luciavu/blog-nextjs"
           imagePreviews={[
             `${mainProjectsPath}1/preview1.jpg`,
             `${mainProjectsPath}1/preview2.jpg`,
             `${mainProjectsPath}1/preview3.jpg`,
           ]}
-          description1="A full-stack (React + Node.js) blog application that consumes a custom-built RESTful API backend and deployed via Vercel."
+          description1="A full-stack (React + Node.js) blog application that consumes a custom-built RESTful API backend and deployed via Vercel. Rewritten code in Next.js also available."
           description2="Fetches and displays blog posts from RESTful API server deployed on Render and PostgreSQL database on Supabase.  Includes  JWT-Protected routes for admin login, CRUD operations for blog posts
-and managing user comments/permissions"
+and managing user comments/permissions."
           techstack={[
             FaReact,
             SiTypescript,

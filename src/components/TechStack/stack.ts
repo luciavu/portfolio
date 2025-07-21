@@ -64,19 +64,23 @@ const stack = {
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg',
     },
     4: {
+      name: 'Next.js',
+      image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',
+    },
+    5: {
       name: 'Tailwindcss',
       image:
         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
     },
-    5: {
+    6: {
       name: 'Prisma',
       image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg',
     },
-    6: {
+    7: {
       name: 'Jest',
       image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg',
     },
-    7: {
+    8: {
       name: 'Vitest',
       image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg',
     },
