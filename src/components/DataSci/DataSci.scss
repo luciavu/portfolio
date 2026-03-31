@@ -17,12 +17,17 @@
   }
   .snippets {
     display: flex;
+    gap: 2rem;
 
     img {
       width: 25%;
     }
     .long {
       width: 40%;
+    }
+
+    .longer {
+      width: 50%;
     }
   }
 }
