@@ -7,10 +7,6 @@ const Contact = () => {
         <h1 className="name">Data Science Projects</h1>
       </div>
 
-      <p>
-        One of my main interests in learning is data science, statistics and analysing data as I
-        enjoy working with numbers and data.
-      </p>
       <p>Below are a few of my favourite data science projects:</p>
       <div className="dataproject">
         <div className="title">01. Drosophila (fruit flies!)</div>
@@ -32,45 +28,30 @@ const Contact = () => {
           multi-layer perceptron classification
         </div>
       </div>
+
       <div className="dataproject">
-        <div className="title">02. Turkish Dry Beans</div>
+        <div className="title">02. Queensland Labor Force Data</div>
         <div className="description">
-          A data pre-processing and analysis project on the structural and shape features of
-          different dry bean varieties used in Turkish agriculture.
+          A data analysis project examining Queensland labour force data and relevant side data on
+          inflation and interest rates, to make predictions of its future movements using timeseries
+          forecasting techniques.
         </div>
-        <div className="snippets">
-          <img
-            className="long"
-            src="./images/data-project/project1/drosophila1.png"
-            alt="Drosophila Project"
-          ></img>
-          <img src="./images/data-project/project1/drosophila2.png" alt="Drosophila Project"></img>
-          <img src="./images/data-project/project1/drosophila3.png" alt="Drosophila Project"></img>
-        </div>
+        <div className="snippets"></div>
         <div className="techniques">
-          <strong>Techniques used:</strong> data pre-processing and visualisation, statistical
-          analysis, k-NN classifictation, random forest classification, logistic regression,
-          multi-layer perceptron classification
+          <strong>Techniques used:</strong> exploratory data analysis, STR decomposition, ARIMA
+          timeseries models, neural-network-based forecasting methods
         </div>
       </div>
       <div className="dataproject">
-        <div className="title">01. Drosophila (fruit flies!)</div>
+        <div className="title">03. BBC News</div>
         <div className="description">
-          A data analysis project on different drosophila group features and characteristics.
+          A data project to gain practical experience in analyzing unstructured data, featuring
+          articles published on the BBC News website.
         </div>
-        <div className="snippets">
-          <img
-            className="long"
-            src="./images/data-project/project1/drosophila1.png"
-            alt="Drosophila Project"
-          ></img>
-          <img src="./images/data-project/project1/drosophila2.png" alt="Drosophila Project"></img>
-          <img src="./images/data-project/project1/drosophila3.png" alt="Drosophila Project"></img>
-        </div>
+        <div className="snippets"></div>
         <div className="techniques">
-          <strong>Techniques used:</strong> data pre-processing and visualisation, statistical
-          analysis, k-NN classifictation, random forest classification, logistic regression,
-          multi-layer perceptron classification
+          <strong>Techniques used:</strong> exploratory data analysis, data pre-processing, logistic
+          regression models, model evaluation techniques
         </div>
       </div>
       <p>
