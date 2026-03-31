@@ -14,8 +14,8 @@ const About = () => {
           <p>
             <strong>About me: </strong>
             I'm an undergraduate student at <b>The University of Queensland </b>working towards my
-            <b> Bachelors in Computer Science with a Data Science Major</b>. Alongside my studies,
-            I've been actively involved in the
+            <b> Bachelors in Science (Comp. Sci Major) + Data Science and Statistics Minors</b>.
+            Alongside my studies, I've been actively involved in the
             <b>
               <a
                 style={{
@@ -35,7 +35,8 @@ const About = () => {
           </p>
 
           <p>
-            <strong>My plans:</strong>to learn/develop desktop apps, mobile apps, and games.
+            <strong>My plans:</strong>to improve my coding skills, to learn more about data science
+            and analysis techniques, and to build projects that I find fun and interesting.
           </p>
 
           <p>
@@ -43,8 +44,7 @@ const About = () => {
             and learning React Native + Expo.
           </p>
           <p>
-            <strong>My interests: </strong> coding, drawing, and looking at objects in the night sky
-            through my telescope.
+            <strong>My interests: </strong> coding, drawing, my telescope
           </p>
         </div>
 

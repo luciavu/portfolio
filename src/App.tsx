@@ -1,7 +1,7 @@
 import Hero from './components/Hero/Hero';
 import TechStack from './components/TechStack/TechStack';
 import Projects from './components/Projects/Projects.tsx';
-import Contact from './components/Contact/Contact';
+import Contact from './components/DataSci/DataSci.tsx';
 import './App.scss';
 import About from './components/About/About.tsx';
 

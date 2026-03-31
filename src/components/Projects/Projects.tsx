@@ -11,10 +11,10 @@ const Projects = () => {
 
   return (
     <>
-      <section className="projects" id="projects">
+      <section className="projects" id="webdev">
         <div className="heading">
           <h1 className="id">03</h1>
-          <h1 className="name">Projects</h1>
+          <h1 className="name"> Projects</h1>
         </div>
         <MainProject
           id={1}

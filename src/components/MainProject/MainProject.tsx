@@ -3,8 +3,8 @@ import './MainProject.scss';
 type MainProjectPropTypes = {
   id: number;
   title: string;
-  codeLink: string;
-  liveLink: string;
+  codeLink?: string;
+  liveLink?: string;
   extraLink?: string;
   imagePreviews: string[];
   description1: string;
@@ -21,7 +21,7 @@ const MainProject = ({
   imagePreviews,
   description1,
   description2,
-  techstack,
+  techstack = [],
 }: MainProjectPropTypes) => {
   return (
     <>
