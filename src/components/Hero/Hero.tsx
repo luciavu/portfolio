@@ -7,9 +7,9 @@ const Hero = () => {
       <div className="hero-section flex-container">
         <div className="hero-content flex-container">
           <div className="name-wrapper">
-            <div className="firstname">lucia</div>
+            <div className="firstname">{atob('bHVjaWE=')}</div>
 
-            <div className="lastname">vu</div>
+            <div className="lastname">{atob('dnU=')}</div>
           </div>
           <div className="nav-wrapper">
             <Nav
